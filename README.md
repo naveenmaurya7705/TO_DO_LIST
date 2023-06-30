@@ -1,4 +1,4 @@
-This is simple Todo list with vanilla JS (as you see in the GIF below). Vanilla JS means no plugins, no libraries, nothing.
+#This is simple Todo list with vanilla JS (as you see in the GIF below). Vanilla JS means no plugins, no libraries, nothing.
  This list include certain Features :
 
 A minimal design with HTML and CSS, it should look nice (no libraries, no frameworks).
@@ -15,6 +15,6 @@ Extra points for creativity:
 
 I Created a about section with the help of about button we can see information about author .
 
- In same way by clicking the clear button we can hide about section for the page.
+In same way by clicking the clear button we can hide about section for the page.
 
 
