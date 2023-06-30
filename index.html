@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO do List</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-cotainer">
+       <!-- STEPs 1 and 2 below here  -->
+
+      <h1 id="myHeader">THIS IS MY TO DO LIST</h1>
+     
+      <input type="text" id="input" placeholder="Enter the Task...!">
+      <input type="button" id ="addButton"   value="ADD" onclick="addTask()">
+
+    </div>
+  </div>
+   
+
+<hr>
+    
+<ul id="tasks">
+  <!-- <li>
+     <input type="checkbox" class="done " onclick="markDone(this.parentNode)" ;" />
+    make todo list
+    <input type="button" class="remove " onclick="remove(this.parentNode)" value="&#x2715;" />
+  </li> -->
+</ul>
+
+
+<hr>
+
+<!-- STEPs 8 and 9 below here  -->
+<div id="divabout"></div><br>
+<footer>
+  <input type="button"  class="BTN" value="About" onclick="doAbout()">
+    
+ <!-- STEP 13 below here  -->
+  <input type="button" class="BTN" value="Clear"  onclick="clearAbout()">
+
+</footer>
+
+
+  
+
+
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>

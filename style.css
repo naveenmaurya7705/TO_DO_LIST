@@ -1,0 +1,159 @@
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container{
+  width:100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+ 
+.input-container input{
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-block: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#input{
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#addButton{
+  background-color: #3da33d;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  width:70px;
+  margin-left: 10px;
+}
+#addButton:hover{
+  background-color: #0ce90c;
+}
+
+.BTN{
+  background-color:#3da33d;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+  width:60px;
+  cursor: pointer;
+}
+.BTN:hover{
+ 
+  background-color: #0ce90c;
+}
+
+
+
+/* remove indentation of list items */
+
+ul {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* remove traditional bullet from front of list items */
+/* Step 3 below here */
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-block: 12px;
+  background-color: #fff;
+  border: 1px solid #a19f9f;
+  padding: 6px 12px;
+  font-size:20px;
+  font-weight:bold;
+  border-radius: 10px;
+}
+
+  
+/* Step 5 below here */
+.done {
+ background-color:#3da33d;
+ cursor: pointer;
+ }
+
+.done:hover{
+    background-color: #0ce90c;
+}
+
+.remove{
+  background-color:rgb(162, 52, 52);
+  cursor: pointer;
+  transform: scale(1);
+  border-radius: 50%;
+}
+
+.remove:hover{
+  background-color: #e71818;
+}
+  
+  
+/* mark task as finished */
+/* Step 6 below here */
+li.finished {
+  color:white;
+  background-color:gray;
+  text-decoration:line-through;
+}
+  
+/* Step 10 below here */
+.yellowbackground {
+    
+  color:red;
+  font-weight:bold;
+  font-size:25px;
+      
+}
+  
+/* Step 12 below here */
+#divabout {
+  text-align: center;
+  font-size:30px;
+    
+}
+
+h1{
+  text-align:center;
+  color:red;
+    
+}
+  
+body{
+  background-color:black;
+  width:100%;
+  margin-left:5px;
+     
+}
+
+footer{
+    
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+/* Increase the size as desired */
+ 
+input[type="checkbox"] {
+  transform: scale(1.5);
+  border-radius: 50%;
+   
+}
+ 
