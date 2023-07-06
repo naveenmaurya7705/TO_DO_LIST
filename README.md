@@ -1,6 +1,10 @@
 `#To Do List`
-#This is simple Todo list with vanilla JS (as you see in the GIF below). Vanilla JS means no plugins, no libraries, nothing.
- This list include certain Features :
+
+
+*  his is simple Todo list with vanilla JS (as you see in the hosting page). Vanilla JS means we are not going to use no plugins, no libraries, nothing.
+
+  
+ `This list include certain Features :`
 
 *  A minimal design with HTML and CSS, it should look nice (no libraries, no frameworks).
 
