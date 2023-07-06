@@ -1,7 +1,7 @@
 `#To Do List`
 
 
-*  his is simple Todo list with vanilla JS (as you see in the hosting page). Vanilla JS means we are not going to use no plugins, no libraries, nothing.
+*  This is simple Todo list with vanilla JS (as you see in the hosting page). Vanilla JS means we are not going to use no plugins, no libraries, nothing.
 
   
  `This list include certain Features :`
